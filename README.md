@@ -1,4 +1,4 @@
-# Y’all-In - The Boardgames Metaxpirience
+# Y’all-In - The Boardgames Metaxperience
 
 ## Intro
 
@@ -19,3 +19,6 @@ Y’all-In is composed by 3 major components:
 3. Click Play or use the voice command: `Play` to connect to your room.
 4. Do the same from any other device. All users will connect automatically to the same room.
 5. Select a boardgame from our current (small) collection.
+
+## APK
+https://drive.google.com/file/d/1nyLikSKctTMT6Atigi8No2YD0j5fKt_o/view
