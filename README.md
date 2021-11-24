@@ -2,7 +2,7 @@
 
 ## Intro
 
-Y’all-In is a VR boardgames platform where you and your friends can create and play your favorite boardgames in the Metaverse. We focus on realistic physics, intuitive card and item manipulation, and single-step connectivity for friends and family, in order to provide the most immersive boardgames Metaxperience.
+Y’all-In is a VR boardgames platform made in Unity, where you and your friends can create and play your favorite boardgames in the Metaverse. We focus on realistic physics, intuitive card and item manipulation, and single-step connectivity for friends and family, in order to provide the most immersive boardgames Metaxperience.
 
 Demo Video: https://youtu.be/yYJaiG5mcSA
 
@@ -12,9 +12,9 @@ Currently we offer:
 
 - Voice commands using the Oculus Voice SDK by bring the wrist's microphone close to face.
 - Card interactions using physics.
-- Multiplayer experience with voice chat, synchronized physics and animations.
+- Multiplayer experience with voice chat, synchronized physics and animations using the Normcore library.
 - Two predefined avatars made with the Ready Player Me platform.
-- Dynamic loading of three card variations of the simple card game "Three-card Monte".
+- Dynamic loading of three card variations of the simple card game "Three-card Monte" stored in a Firebase database.
 - Keeping notes on virtual boards.
 
 In the future we plan to provide:
@@ -25,14 +25,6 @@ In the future we plan to provide:
 - Room personalization with virtual items.
 - Hand tracking capabilities.
 - Passthrough mode for Mixed-Reality experiences.
-
-## Architecture
-
-Y’all-In is composed by 3 major components:
-
-1. A Firebase database - This is where user accounting and dynamic loading of stored boardgames happens.
-2. The networking infrastructure for which we use the Normcore library.
-3. And Unity, where we build the room scene and all physics interactions.
 
 ## How to install and play
 
